@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Email Spam Detector</title>
+</head>
+<body>
+  <h2>Email Spam Detection App</h2>
+
+  <form method="POST" action="/predict">
+    <textarea name="email" rows="6" cols="60" placeholder="Paste your email here..." required>{{ email or "" }}</textarea><br><br>
+    <button type="submit">Check</button>
+  </form>
+
+  {% if result %}
+    <h3>Prediction: <strong>{{ result | upper }}</strong></h3>
+  {% endif %}
+</body>
+</html>

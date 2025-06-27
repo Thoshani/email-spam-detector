@@ -119,7 +119,6 @@ This is a simple yet powerful machine learning web app that detects whether an e
 
 ### 1. Clone the Repo
 
-```bash
 git clone https://github.com/Thoshani/email-spam-detector.git
 cd email-spam-detector
 2. Install Dependencies
@@ -130,3 +129,10 @@ python train_and_save.py
 python app.py
 Open your browser at:
 http://localhost:5000
+
+
+output
+![image](https://github.com/user-attachments/assets/d416e725-de1b-48e2-96b4-e8cc6885aef9)
+![image](https://github.com/user-attachments/assets/7a2dc0e6-44dd-46ae-8323-ce7024772a81)
+
+
